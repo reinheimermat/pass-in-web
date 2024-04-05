@@ -1,5 +1,6 @@
 node_modules
 *.json
 prettier.config.js
+*.config.js
 *.yaml
 *.html
