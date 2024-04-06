@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+nlw-unite-nodejs
 
 # Editor directories and files
 .vscode/*
