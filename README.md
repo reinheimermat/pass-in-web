@@ -1,30 +1,27 @@
-# React + TypeScript + Vite
+# NLW UNITE | PASS-IN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![thumbnail](./src/assets/thumb.jpg)
+The pass.in is an application for **managing participants in face-to-face events**.
 
-Currently, two official plugins are available:
+> Status: Finished... ✅ 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies 🚀
 
-## Expanding the ESLint configuration
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## License 📝
 
-- Configure the top-level `parserOptions` property like this:
+[![licence](https://img.shields.io/github/license/reinheimermat/discover.svg)](https://github.com/Ileriayo/markdown-badges/blob/master/LICENSE)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## About 💡
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The tool allows the organizer to register an event and open a public registration page.
+
+Registered participants can issue a credential for check-in on the day of the event.
+
+The system will scan the participant’s credential to allow entry to the event.
+
+<center><img style="width: 100%" src="./src/assets/print.jpeg"></center>
